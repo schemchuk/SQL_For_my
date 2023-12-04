@@ -28,7 +28,7 @@ FROM
 
 -- Вывести список стран, которые поставляют морепродукты
 
-SELECT 
+SELECT DISTINCT
 	Suppliers.Country
 FROM 
 	Products
